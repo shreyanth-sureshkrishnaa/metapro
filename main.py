@@ -61,7 +61,7 @@ class ReportDialog(QDialog):
 class MetaPro(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("MetaPro  |  Forensic Metadata Analyzer")
+        self.setWindowTitle("metapro  |  Forensic Metadata Analyzer")
         self.resize(1540, 900)
         self.current_palette = DARK_PALETTE
         self.data_cache = []
@@ -79,7 +79,7 @@ class MetaPro(QMainWindow):
 
         # ── Header ────────────────────────────────────────────────────────
         header = QHBoxLayout()
-        title = QLabel("MetaPro")
+        title = QLabel("metapro")
         title.setObjectName("title")
         sub = QLabel("Forensic Metadata Analyzer")
         sub.setObjectName("subtitle")

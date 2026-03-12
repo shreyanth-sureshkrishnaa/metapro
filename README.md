@@ -1,6 +1,9 @@
 # MetaPro: Bulk Metadata Extractor
 
-MetaPro is a high-performance forensic tool designed for the bulk extraction, analysis, and visualization of digital metadata from image and video files. It leverages ExifTool for deep metadata parsing and provides a unified interface for temporal and geospatial analysis.
+MetaPro is a high-performance forensic tool designed for the bulk extraction, analysis, and visualization of digital metadata from image files. It leverages ExifTool for deep metadata parsing and provides a unified interface for temporal and geospatial analysis.
+
+## NOTE:
+https://github.com/ianare/exif-py/tree/master/tests/resources/jpg/gps
 
 ## Core Capabilities
 
