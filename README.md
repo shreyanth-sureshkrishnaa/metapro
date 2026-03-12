@@ -2,9 +2,6 @@
 
 MetaPro is a high-performance forensic tool designed for the bulk extraction, analysis, and visualization of digital metadata from image files. It leverages ExifTool for deep metadata parsing and provides a unified interface for temporal and geospatial analysis.
 
-## NOTE:
-https://github.com/ianare/exif-py/tree/master/tests/resources/jpg/gps
-
 ## Core Capabilities
 
 The application processes large datasets to extract technical metadata including camera specifications, encoding details, and embedded GPS coordinates. It includes a dedicated map interface for geospatial distribution analysis and a synchronized timeline for event reconstruction. Data can be exported to CSV format for further investigation in external analytical tools.
